@@ -1,0 +1,1 @@
+document.querySelector('.hero-main').innerText = "Welcome to Twain-Land";
