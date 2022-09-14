@@ -179,6 +179,25 @@ body{
 }
 
 /************
+    TWAIN-GAME
+*************/
+
+#twain-game {
+    min-height: 97vh;
+    width: 100%;
+    background-image: url(../images/game-area\(compressed\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.twain-game__main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/************
     FOOTER
 *************/
 
