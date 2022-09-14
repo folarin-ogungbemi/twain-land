@@ -9,7 +9,6 @@ html {
 }
 
 body{
-    background-image: linear-gradient(rgb(126, 161, 196, 0.7), rgb(27, 54, 92, 0.7)), url(../images/hero\ \(compressed\).jpg);
     display: flex;
     flex-direction: column;
     line-height: 1.5;
@@ -18,6 +17,11 @@ body{
 #hero {
     min-height: 97vh;
     width: 100%;
+    background-image: linear-gradient(rgb(126, 161, 196, 0.7), rgb(27, 54, 92, 0.7)), url(../images/hero\ \(compressed\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 footer{
