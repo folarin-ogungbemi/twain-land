@@ -187,4 +187,6 @@ footer{
     background: linear-gradient(rgb(126, 161, 196, 0.7), rgb(27, 54, 92, 0.7));
     font-weight: 500;
     padding-left:2rem;
+    display: flex;
+    align-items:center;
 }
