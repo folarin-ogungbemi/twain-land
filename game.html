@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Twain Land</title>
+</head>
+<body>
+    <section id="twain-game">
+        <header>
+            <h1 class="logo">T<sub class="logo-sub">L</sub></h1>
+        </header>
+        <div class="twain-game__container">
+            <div class="twain-game__container-head">
+                <div class="head-info">
+                    <p class="twain-game__info-time">Timer : <span id="game-timer">0:00</span></p>
+                    <p class="twain-game__info-score">Score : <span id="game-score">0</span></p>
+                </div>
+            </div>
+            <div class="twain-game__container-body">
+                card images and text
+            </div>
+            <dialog class="twain-game__modal-win">
+                congratulations!
+                <div class="twain-game__modal-btn">
+                    <a href="#"><input type="button" class="btn btn--green" value="Play again"></a>
+                    <a href="#"><button class="btn btn--red">Exit</button></a>
+                </div>
+            </dialog>
+            <dialog class="twain-game__modal-lose">
+                oooops!
+                <div class="twain-game__modal-btn">
+                    <a href="#"><input type="button" class="btn btn--green" value="Try again"></a>
+                    <a href="#"><button class="btn btn--red">Exit</button></a>
+                </div>
+            </dialog>
+        </div>
+    </section>
+    <footer>
+        &copy; Twaingames, Inc.
+    </footer>
+
+    <script src="./assets/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
