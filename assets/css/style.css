@@ -197,6 +197,34 @@ body{
 
 }
 
+.twain-game__main-head {
+    display: flex;
+    width: 90%;
+    min-height: 5vh;
+    justify-content: center;
+    background: linear-gradient(rgb(126, 161, 196, 0.5), rgb(27, 54, 92, 0.5));
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.head-info {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    width: inherit;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.twain-game__info-time {
+    flex: 1 1 50%;
+}
+
+.twain-game__info-score {
+    flex: 1 1 50%;
+    padding-left: 7rem;
+}
+
 /************
     FOOTER
 *************/
