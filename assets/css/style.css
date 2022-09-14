@@ -138,6 +138,36 @@ body{
     }
 }
 
+/************
+    MODAL
+*************/
+
+.hero__modal {
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 60ch;
+    line-height: 2;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero__modal-header {
+    text-transform: uppercase;
+    color: #1B365C;
+    text-align: center;
+}
+
+.hero__modal-text{
+    padding-left:1.5rem ;
+}
+
+/************
+    FOOTER
+*************/
+
 footer{
     height: 3vh;
     background: linear-gradient(rgb(126, 161, 196, 0.7), rgb(27, 54, 92, 0.7));
