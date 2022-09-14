@@ -70,6 +70,15 @@ body{
     font-style: italic;
 }
 
+.btn {
+    padding: 1.5rem 7rem;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    border: none;
+    font-size: 2rem;
+    color: #1B365C;
+}
+
 footer{
     height: 3vh;
 }
