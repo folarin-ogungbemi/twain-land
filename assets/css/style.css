@@ -92,10 +92,17 @@ body{
 .btn {
     padding: 1.5rem 7rem;
     border-radius: 0.5rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     border: none;
     font-size: 2rem;
     color: #1B365C;
+}
+
+.btn:hover {
+    background-color: #7EA1C4;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 
 @keyframes slideDown {
