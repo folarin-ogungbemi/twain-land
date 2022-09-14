@@ -164,6 +164,20 @@ body{
     padding-left:1.5rem ;
 }
 
+.hero__modal-btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn--green:hover {
+    background-color: #46ca46;
+}
+
+.btn--red:hover {
+    background-color: #ff0000;
+}
+
 /************
     FOOTER
 *************/
