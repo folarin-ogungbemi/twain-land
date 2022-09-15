@@ -239,11 +239,21 @@ body{
 .twain-game__deck {
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .twain-game__card {
+    position: relative;
     width: 16rem;
     height: 8rem;
+}
+
+/* code idea from kevin powell */
+.twain-game__card:nth-child(6n + 1) {
+    grid-column: 1;
 }
 
 .country>img {
@@ -260,7 +270,7 @@ body{
 .card-front {
     width: 100%;
     height: 100%;
-    width: 100%;
+    position: absolute;
     border-radius: 10px;
     background: linear-gradient(rgb(126, 161, 196), rgb(27, 54, 92));
 }
