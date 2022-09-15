@@ -23,7 +23,7 @@
     });
 });
 
-// Global variables necessary for the game
+/* Global variables necessary for the game */
 
 // Game time variable
  let twainSeconds;
@@ -69,6 +69,7 @@ function toggler(){
     this.classList.toggle('on-toggle');
 
     // check which card has just been toggled
+    // Code guide from Code sketch youtube channel
     if (istoggled === false){
         cardA = this;
         istoggled = true;
@@ -80,6 +81,9 @@ function toggler(){
     // check if cardA and cardB match,lock card deck and remove after 1s.
    if (cardA.dataset.name === cardB.dataset.name){
     deckLock = true;
+    // Code-Institute guide
+    let correctPairs = document.querySelector('.correct-pairs').innerText;
+    document.querySelector('.correct-pairs').innerText = ++correctPairs;
     incrementScore();
     setTimeout(removeCards,1000);
   }
@@ -87,6 +91,9 @@ function toggler(){
   // if cardA and cardB do not match and return cards after 1.75s
   else{
     deckLock = true;
+    // Code-Institute guide
+    let incorrectPairs = document.querySelector('.incorrect-pairs').innerText;
+    document.querySelector('.incorrect-pairs').innerText = ++incorrectPairs;
     setTimeout(returnCards,1750);
   }
 }
@@ -132,6 +139,7 @@ function toggler(){
  /**
  * Function resets card deck to starting state
  */
+// Code guide from Code sketch youtube channel
 function resetDeck(){
    istoggled = false ;
    deckLock = false ;
