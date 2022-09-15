@@ -70,7 +70,16 @@ function toggler(){
      else{
         cardB = this;
         istoggled = false;
-     }
+    // check if cardA and cardB match,lock card deck and remove after 1s.
+   if (cardA.dataset.name === cardB.dataset.name){
+    setTimeout(removeCards,1000);
+  }
+
+  // if cardA and cardB do not match and return cards after 1.75s
+  else{
+    setTimeout(returnCards,1750);
+  }
+}
 }
 
  /**
@@ -86,6 +95,8 @@ function toggler(){
  */
    function removeCards(){
 
+    cardA.remove();
+    cardB.remove();
    }
 
 /**
@@ -93,6 +104,8 @@ function toggler(){
  */
  function returnCards(){
 
+    cardA.classList.toggle('on-toggle');
+    cardB.classList.toggle('on-toggle');
  }
 
  /**
