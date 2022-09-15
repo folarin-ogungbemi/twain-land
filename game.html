@@ -276,14 +276,27 @@
                 </div>
             </div>
             <dialog class="twain-game__modal-win">
-                congratulations!
+                <div class="twain-game__modal-header">
+                    <h1>congratulations</h1>
+                    <img src="./assets/images/trophy-c.png" alt="A sad emoji" height="200px" width="200px">
+                </div>
+                <div class="twain-game__modal-text">
+                    <p>You are qualified!</p>
+                </div>
                 <div class="twain-game__modal-btn">
                     <a href="game.html"><input type="button" class="btn btn--green" value="Play again"></a>
                     <a href="index.html"><button class="btn btn--red">Exit</button></a>
                 </div>
             </dialog>
             <dialog class="twain-game__modal-lose">
-                oooops!
+                <div class="twain-game__modal-header">
+                    <h1>ooooops!</h1>
+                    <img src="./assets/images/emoji-c.png" alt="A trophy" height="200px" width="200px">
+                </div>
+                <div class="twain-game__modal-text">
+                    <p>You ran out of time!</p>
+                    <p>You had <span class="incorrect-pairs">0</span> incorrect and <span class="correct-pairs"> 0</span> correct pairs.</p>
+                </div>
                 <div class="twain-game__modal-btn">
                     <a href="game.html"><input type="button" class="btn btn--green" value="Try again"></a>
                     <a href="index.html"><button class="btn btn--red">Exit</button></a>
