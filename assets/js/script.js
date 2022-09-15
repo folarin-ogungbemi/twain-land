@@ -35,6 +35,7 @@
  let twainScore = 0;
  let cardA, cardB;
  let istoggled = false;
+ let deckLock = false;
 
 /**
  * Sets game countdown timer
@@ -61,6 +62,7 @@
  * Operates the toggling of cards when event starts 
  */
 function toggler(){
+    if (deckLock) return;
     this.classList.toggle('on-toggle');
 
     // check which card has just been toggled
@@ -71,14 +73,17 @@ function toggler(){
      else{
         cardB = this;
         istoggled = false;
+        
     // check if cardA and cardB match,lock card deck and remove after 1s.
    if (cardA.dataset.name === cardB.dataset.name){
+    deckLock = true;
     incrementScore();
     setTimeout(removeCards,1000);
   }
 
   // if cardA and cardB do not match and return cards after 1.75s
   else{
+    deckLock = true;
     setTimeout(returnCards,1750);
   }
 }
@@ -106,6 +111,7 @@ function toggler(){
 
     cardA.remove();
     cardB.remove();
+    resetDeck();
    }
 
 /**
@@ -115,11 +121,15 @@ function toggler(){
 
     cardA.classList.toggle('on-toggle');
     cardB.classList.toggle('on-toggle');
+    resetDeck();
  }
 
  /**
  * Function resets card deck to starting state
  */
 function resetDeck(){
-
+   istoggled = false ;
+   deckLock = false ;
+   cardA = null;
+   cardB = null;
 }
