@@ -263,7 +263,7 @@ body{
     grid-column: 1;
 }
 
-.twain-game__card:hover {
+.twain-game__card.on-toggle {
     transform: rotateY(180deg);
 }
 
