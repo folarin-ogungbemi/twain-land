@@ -24,11 +24,16 @@
 });
 
 // Global variables necessary for the game
+
 // Game time variable
  let twainSeconds;
  let twainTime;
  let clearTimeRecord = setInterval(startTimer,1000);
  let twainMinutes = 240 ; // time in seconds (3 * 60sec)
+
+ // variable for defining the style of game
+ let cardA, cardB;
+ let istoggled = false;
 
 /**
  * Sets game countdown timer
@@ -56,6 +61,16 @@
  */
 function toggler(){
     this.classList.toggle('on-toggle');
+
+    // check which card has just been toggled
+    if (istoggled === false){
+        cardA = this;
+        istoggled = true;
+     }
+     else{
+        cardB = this;
+        istoggled = false;
+     }
 }
 
  /**
