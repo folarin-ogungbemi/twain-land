@@ -41,9 +41,12 @@
  * Sets game countdown timer
  */
  function startTimer(){
-    let playerTime = document.querySelector('#game-timer');
 
-  if ((twainTime % 60 === 0) && (twainSeconds % 60 === 0)){
+    let playerTime = document.querySelector('#game-timer');
+    const lose = document.querySelector('.twain-game__modal-lose');
+
+  if (((twainTime % 60 === 0) && (twainSeconds % 60 === 0)) && (twainScore !== 1360)){
+      lose.showModal();
       clearInterval(clearTimeRecord);
    }
    else{
@@ -73,7 +76,7 @@ function toggler(){
      else{
         cardB = this;
         istoggled = false;
-        
+
     // check if cardA and cardB match,lock card deck and remove after 1s.
    if (cardA.dataset.name === cardB.dataset.name){
     deckLock = true;
@@ -92,10 +95,12 @@ function toggler(){
  /**
   * Increment score if player finds pair
   */
-
   function incrementScore(){
- 
+    
+    const win = document.querySelector('.twain-game__modal-win');
+
    if ((twainScore === 1360) && ((twainTime % 60 > 0) || (twainSeconds % 60 > 0))){
+      win.showModal();
       clearInterval(clearTimeRecord);
    }
    else{
