@@ -306,3 +306,15 @@ footer{
     display: flex;
     align-items:center;
 }
+
+/************
+MEDIUM QUERIES
+*************/
+/* media at 1000px*/
+
+@media screen and (max-width: 1000px) {
+
+    html{
+        font-size: 50%;
+    }
+}
