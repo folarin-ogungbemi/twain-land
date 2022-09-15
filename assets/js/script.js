@@ -32,6 +32,7 @@
  let twainMinutes = 240 ; // time in seconds (3 * 60sec)
 
  // variable for defining the style of game
+ let twainScore = 0;
  let cardA, cardB;
  let istoggled = false;
 
@@ -72,6 +73,7 @@ function toggler(){
         istoggled = false;
     // check if cardA and cardB match,lock card deck and remove after 1s.
    if (cardA.dataset.name === cardB.dataset.name){
+    incrementScore();
     setTimeout(removeCards,1000);
   }
 
@@ -87,7 +89,14 @@ function toggler(){
   */
 
   function incrementScore(){
-
+ 
+   if ((twainScore === 1360) && ((twainTime % 60 > 0) || (twainSeconds % 60 > 0))){
+      clearInterval(clearTimeRecord);
+   }
+   else{
+      twainScore+= 80;
+      document.querySelector('#game-score').innerHTML = `${twainScore}`;
+   }
   }
 
   /**
