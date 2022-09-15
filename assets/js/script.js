@@ -13,6 +13,13 @@
     const countries = document.querySelectorAll('.twain-game__card');
     countries.forEach(function(country){
       country.onclick = toggler;
+
+       // An IIFE that shuffle all cards on deck before the game starts.
+   (function shuffleCards(){
+    let cardLength = document.querySelectorAll('.country').length;
+    let randomNum = Math.floor(Math.random() * cardLength) + 1;
+    country.style.order = randomNum;
+  }());
     });
 });
 
