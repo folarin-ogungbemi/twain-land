@@ -24,8 +24,44 @@
 });
 
 /**
- * operates the toggling of cards when event starts 
+ * Sets game countdown timer
+ */
+ function startTimer(){
+    
+}
+
+/**
+ * Operates the toggling of cards when event starts 
  */
 function toggler(){
     this.classList.toggle('on-toggle');
+}
+
+ /**
+  * Increment score if player finds pair
+  */
+
+  function incrementScore(){
+
+  }
+
+  /**
+ * Remove cards from deck when pair is found
+ */
+   function removeCards(){
+
+   }
+
+/**
+ * Return cards back to deck when pair is not found
+ */
+ function returnCards(){
+
+ }
+
+ /**
+ * Function resets card deck to starting state
+ */
+function resetDeck(){
+
 }
