@@ -14,7 +14,7 @@ html {
     font-size: 62.5%;
     --header1: calc(2.4rem + 1vw);
     --header2: calc(2rem + 1vw);
-    --text4: calc(0.5rem + 1vw);
+    --text2: calc(0.8rem + 1vw);
 }
 
 body {
@@ -291,7 +291,7 @@ a {
 }
 
 .country>h1 {
-    font-size: 2rem;
+    font-size: var(--text2);
     color: #ffffff;
 }
 
@@ -379,6 +379,6 @@ MEDIUM QUERIES
     }
 
     .country>h1 {
-        font-size: 1.5rem;
+        font-size: 1.65rem;
     }
 }
