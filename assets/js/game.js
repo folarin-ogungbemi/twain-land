@@ -1,14 +1,14 @@
 // Wait for the DOM to finish loading before the game starts
 // Get the class array "twain-game__card" and listen for a click on each item.
 
-document.addEventListener('DOMContentLoaded', function () {
-   const countries = document.querySelectorAll('.twain-game__card');
+document.addEventListener("DOMContentLoaded", function () {
+   const countries = document.querySelectorAll(".twain-game__card");
    countries.forEach(function (country) {
       country.onclick = toggler;
 
       // An IIFE that shuffle all cards on deck before the game starts.
       (function shuffleCards() {
-         let cardLength = document.querySelectorAll('.country').length;
+         let cardLength = document.querySelectorAll(".country").length;
          let randomNum = Math.floor(Math.random() * cardLength) + 1;
          country.style.order = randomNum;
       }());
@@ -18,14 +18,15 @@ document.addEventListener('DOMContentLoaded', function () {
 /* Global variables necessary for the game */
 
 // Game time variable
-let twainSeconds;
-let twainTime;
+let tSec; //twainSeconds
+let tTime; //twainTime
 let clearTimeRecord = setInterval(startTimer, 1000);
-let twainMinutes = 240; // time in seconds (3 * 60sec)
+let tMin = 240; // twainMinutes in seconds (3 * 60sec)
 
 // variable for defining the style of game
-let twainScore = 0;
-let cardA, cardB;
+let tScore = 0; //twainScore
+let cardA;
+let cardB;
 let istoggled = false;
 let deckLock = false;
 
@@ -34,31 +35,32 @@ let deckLock = false;
  */
 function startTimer() {
 
-   let playerTime = document.querySelector('#game-timer');
-   const lose = document.querySelector('.twain-game__modal-lose');
+   let playerTime = document.querySelector("#game-timer");
+   const lose = document.querySelector(".twain-game__modal-lose");
 
-   if ((twainScore !== 1360) && ((twainTime % 60 === 0) && (twainSeconds % 60 === 0))) {
+   if ((tScore !== 1360) && ((tTime % 60 === 0) && (tSec % 60 === 0))) {
       lose.showModal();
       clearInterval(clearTimeRecord);
    } else {
       // code idea from florin pop youtube
-      twainTime = Math.floor(twainMinutes / 60);
-      twainSeconds = twainMinutes % 60;
-      twainMinutes--;
-      if (twainSeconds < 10) {
-         twainSeconds = '0' + twainSeconds;
+      tTime = Math.floor(tMin / 60);
+      tSec = tMin % 60;
+      tMin--;
+      if (tSec < 10) {
+         tSec = "0" + tSec;
       }
    }
-   playerTime.innerHTML = `${twainTime}:${twainSeconds}`;
+   playerTime.innerHTML = `${tTime}:${tSec}`;
 }
 
 /**
- * Operates the toggling of cards when event starts 
+ * Operates the toggling of cards when event starts
  */
 function toggler() {
-   if (deckLock) return;
-   this.classList.toggle('on-toggle');
-
+   if (deckLock) {
+      return;
+   }
+   this.classList.toggle("on-toggle");
    // check which card has just been toggled
    // Code guide from Code sketch youtube channel
    if (istoggled === false) {
@@ -67,23 +69,21 @@ function toggler() {
    } else {
       cardB = this;
       istoggled = false;
-
       // check if cardA and cardB match,lock card deck and remove after 1s.
       if (cardA.dataset.name === cardB.dataset.name) {
          deckLock = true;
          // Code-Institute guide
-         let correctPairs = document.querySelector('.correct-pairs').innerText;
-         document.querySelector('.correct-pairs').innerText = ++correctPairs;
+         let yesPairs = document.querySelector(".correct-pairs").innerText;
+         document.querySelector(".correct-pairs").innerText = ++yesPairs;
          incrementScore();
          setTimeout(removeCards, 1000);
       }
-
       // if cardA and cardB do not match and return cards after 1.75s
       else {
          deckLock = true;
          // Code-Institute guide
-         let incorrectPairs = document.querySelector('.incorrect-pairs').innerText;
-         document.querySelector('.incorrect-pairs').innerText = ++incorrectPairs;
+         let noPairs = document.querySelector(".incorrect-pairs").innerText;
+         document.querySelector(".incorrect-pairs").innerText = ++noPairs;
          setTimeout(returnCards, 1750);
       }
    }
@@ -94,18 +94,17 @@ function toggler() {
  */
 function incrementScore() {
 
-   const win = document.querySelector('.twain-game__modal-win');
+   const win = document.querySelector(".twain-game__modal-win");
 
-   if ((twainScore === 1360) && ((twainTime % 60 > 0) || (twainSeconds % 60 > 0))) {
+   if ((tScore === 1360) && ((tTime % 60 > 0) || (tSec % 60 > 0))) {
       win.showModal();
       clearInterval(clearTimeRecord);
-   }
-   else if ((twainScore === 1360) && ((twainTime % 60 === 0) || (twainSeconds % 60 === 0))) {
+   } else if ((tScore === 1360) && ((tTime % 60 === 0) || (tSec % 60 === 0))) {
       win.showModal();
       clearInterval(clearTimeRecord);
    } else {
-      twainScore += 80;
-      document.querySelector('#game-score').innerHTML = `${twainScore}`;
+      tScore += 80;
+      document.querySelector("#game-score").innerHTML = `${tScore}`;
    }
 }
 
@@ -124,8 +123,8 @@ function removeCards() {
  */
 function returnCards() {
 
-   cardA.classList.toggle('on-toggle');
-   cardB.classList.toggle('on-toggle');
+   cardA.classList.toggle("on-toggle");
+   cardB.classList.toggle("on-toggle");
    resetDeck();
 }
 
@@ -134,6 +133,7 @@ function returnCards() {
  */
 // Code guide from Code sketch youtube channel
 function resetDeck() {
+
    istoggled = false;
    deckLock = false;
    cardA = null;
