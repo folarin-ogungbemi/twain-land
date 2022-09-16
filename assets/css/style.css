@@ -155,7 +155,7 @@ a {
     font-size: var(--text4);
     padding: 1rem;
     width: 60ch;
-    min-width: 200px;
+    min-width: 250px;
     line-height: 2;
     position: absolute;
     inset: 0;
@@ -375,9 +375,15 @@ MEDIUM QUERIES
         letter-spacing: 2.1rem;
     }
 
+    .hero__modal,
+    .twain-game__modal-win,
+    .twain-game__modal-lose {
+        font-size: 1.4rem;
+    }
+
     .twain-game__deck {
         grid-template-columns: repeat(4, 10.5rem);
-        grid-template-rows: repeat(9, 7rem);
+        grid-template-rows: repeat(9, 6rem);
     }
 
     .twain-game__card {
