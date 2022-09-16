@@ -308,7 +308,7 @@ a {
     backface-visibility: hidden;
 }
 
-.card-front{
+.card-front {
     background: linear-gradient(to bottom left, rgb(126, 161, 196), rgb(27, 54, 92));
 }
 
