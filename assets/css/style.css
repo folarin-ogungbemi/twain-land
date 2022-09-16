@@ -175,12 +175,12 @@ body {
     gap: 1rem;
 }
 
-.btn--green:hover {
+.btn--green {
     background-color: #46ca46;
 }
 
-.btn--red:hover {
-    background-color: #ff0000;
+.btn--red {
+    background-color: #fd3030;
 }
 
 .correct-pairs {
@@ -188,7 +188,7 @@ body {
 }
 
 .incorrect-pairs {
-    color: #ff0000;
+    color: #fd3030;
 }
 
 /************
