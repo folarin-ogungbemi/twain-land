@@ -102,6 +102,7 @@ a {
     border: none;
     font-size: 2rem;
     color: #1B365C;
+    line-height: normal;
 }
 
 .btn:hover {
