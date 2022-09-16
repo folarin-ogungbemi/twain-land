@@ -365,6 +365,9 @@ MEDIUM QUERIES
 /* media at 500px*/
 
 @media screen and (max-width: 500px) {
+    .hero__main-header2 {
+        letter-spacing: 2.1rem;
+    }
     .twain-game__deck {
         grid-template-columns: repeat(4, 10.5rem);
         grid-template-rows: repeat(9, 7rem);
