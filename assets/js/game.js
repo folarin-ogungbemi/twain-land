@@ -60,6 +60,9 @@ function toggler() {
    if (deckLock) {
       return;
    }
+   if (this === cardA){
+      return;
+   }
    this.classList.toggle("on-toggle");
    // check which card has just been toggled
    // Code guide from Code sketch youtube channel
