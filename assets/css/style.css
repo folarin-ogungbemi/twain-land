@@ -305,8 +305,11 @@ a {
     height: 100%;
     position: absolute;
     border-radius: 10px;
-    background: linear-gradient(rgb(126, 161, 196), rgb(27, 54, 92));
     backface-visibility: hidden;
+}
+
+.card-front{
+    background: linear-gradient(to bottom left, rgb(126, 161, 196), rgb(27, 54, 92));
 }
 
 .card-back {
@@ -314,6 +317,7 @@ a {
     justify-content: center;
     align-items: center;
     transform: rotateY(180deg);
+    background: linear-gradient(rgb(126, 161, 196, 0.7), rgb(27, 54, 92, 0.7));
 }
 
 /************
