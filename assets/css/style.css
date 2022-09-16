@@ -23,6 +23,10 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
 }
+a {
+    text-decoration: none;
+    color: #1B365C;
+}
 
 /************
     hero
