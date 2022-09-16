@@ -15,7 +15,7 @@ html {
     --header1: calc(2.4rem + 1vw);
     --header2: calc(2rem + 1vw);
     --text2: calc(0.8rem + 1vw);
-    --text4:calc(0.2rem + 1vw);
+    --text4: calc(0.2rem + 1vw);
 }
 
 body {
@@ -24,6 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
 }
+
 a {
     text-decoration: none;
     color: #1B365C;
@@ -369,6 +370,7 @@ MEDIUM QUERIES
     .hero__main-header2 {
         letter-spacing: 2.1rem;
     }
+
     .twain-game__deck {
         grid-template-columns: repeat(4, 10.5rem);
         grid-template-rows: repeat(9, 7rem);
