@@ -37,7 +37,7 @@ function startTimer() {
    let playerTime = document.querySelector('#game-timer');
    const lose = document.querySelector('.twain-game__modal-lose');
 
-   if (((twainTime % 60 === 0) && (twainSeconds % 60 === 0)) && (twainScore !== 1360)) {
+   if ((twainScore !== 1360) && ((twainTime % 60 === 0) && (twainSeconds % 60 === 0))) {
       lose.showModal();
       clearInterval(clearTimeRecord);
    } else {
@@ -97,6 +97,10 @@ function incrementScore() {
    const win = document.querySelector('.twain-game__modal-win');
 
    if ((twainScore === 1360) && ((twainTime % 60 > 0) || (twainSeconds % 60 > 0))) {
+      win.showModal();
+      clearInterval(clearTimeRecord);
+   }
+   else if ((twainScore === 1360) && ((twainTime % 60 === 0) || (twainSeconds % 60 === 0))) {
       win.showModal();
       clearInterval(clearTimeRecord);
    } else {
