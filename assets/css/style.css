@@ -46,15 +46,8 @@ a {
 
 .logo {
     position: absolute;
-    top: 1rem;
-    left: 2rem;
-    font-size: var(--header2);
-    color: #1b365c;
-    font-weight: 500;
-}
-
-.logo-sub {
-    font-weight: 400;
+    top: 1.5rem;
+    left: 2.5rem;
 }
 
 .hero__main {
