@@ -153,6 +153,7 @@ a {
     font-size: var(--text4);
     padding: 1rem;
     width: 60ch;
+    min-width: 200px;
     line-height: 2;
     position: absolute;
     inset: 0;
