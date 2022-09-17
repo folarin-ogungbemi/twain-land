@@ -43,6 +43,30 @@ Twain-land introduces the famous concentration game that both young and old enjo
 * The game intends to help users get accustomed with countries' flags. The application currently features only few countries in Europe and will in the future provide functions for users to select continent of their choice.
 * The game will also include stages of difficulty.
 
+## Design
+
+### Colour Scheme
+
+The website will overall use four major colors.
+
+* #1B365C :  dark-blue colour
+* #7EA1C4 :  light blue colour
+* #fd3030 :  red colour
+* #46ca46 :  green colour
+
+### Typography
+
+The text types of the website and the game overall is *Poppins*.
+
+### graphics & Layout
+
+* The images and icons used for the website depicts the purpose and goals of the website.
+* The layout of the cards in the game were organised using a *2 dimensional grid display* format for the best deployment of the cards in the game meeting screen responsiveness requirement.
+
+## Limitations
+
+* The responsiveness of the website to screens is specifically made for screens from 300px and above. 
+
 ---
 
 # Twain-Land Program Flow-Chart
