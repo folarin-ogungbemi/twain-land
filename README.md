@@ -75,3 +75,56 @@ The following steps were taken during testing procedure.
 
 ## Unfixed Bugs
 Bug on favicon 404 error not found in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug.
+
+# Deployment
+
+Github is the hosting platform for the project and to deploy, The following steps were taken:
+[Github Address](https://github.com/folarin-ogungbemi/twain-land.git "visit github address")
+* Navigate to settings on the Github settings.
+* Click on **pages** from the list on the left flank of the page.
+* Navigate to the branch section and select **main** as branch then click save.
+* After approximately two minutes refresh the website and a live website will be available.
+[Live website here](https://folarin-ogungbemi.github.io/twain-land/ "visit live website")
+
+# Technologies
+
+* HTML
+    * Hyper Text Markup Language(HTML) is the main text writer used for this website.
+* CSS
+    * Cascading Style Sheets(CSS) is the technology used for styling the website.
+* Javascript
+    * Javascript web program was used isn writing the codes that brings interactivity to the game.
+* Code Institute
+    * A coding school for learning Software Development.
+* [Github](https://github.com "Link to Github main-page")
+    * Github is the site used for the deployment and hosting of this website.
+* [Gitpod](https://www.gitpod.io "Link to Gitpod main-page")
+    * Gitpod is the open-source developer platform used in tandem with github for the deployment of the website source code.
+* [Visual Studio code](https://code.visualstudio.com "Link to visual studio code main-page")
+    * The Integrated development environment(IDE) used for the writing of source code.
+* [Flaticon](https://www.flaticon.com/"Link to flaticon main-page")
+    * The icons used in the website were products of flaticon.
+* [Google fonts](https://fonts.google.com "Link to google fonts main-page")
+    * The fonts used in the website were products of google fonts.
+* [Adobe color](https://color.adobe.com/de "Link to Adobe color")
+    * Adobe color was used to compare colors used for the website.
+* [TinyJPG](https://tinyjpg.com/ "Link to TinyJPG main-page")
+    * Website used for the compression of images used in the website.
+* [Pexels](https://www.pexels.com "Link to pexels main-page")
+    * Website used to source images used in the website.
+* [Techsini](https://techsini.com/multi-mockup/index.php "Link to website main-page")
+    * The Mock-up generator website used for creating the website mock-up image.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator "Link to W3 CSS main-page")
+    * CSS validator used to validate the website's CSS in comparison to standard CSS writing.
+* [W3 HTML Checker](https://validator.w3.org/nu/#textarea "Link to W3 HTML main-page")
+    * HTML validator used to validate the website's HTML in comparison to standard HTML writing.
+* [Jshint validator](https://jshint.com "visit website")
+    * For testing of codes in comparison to standard writing of codes.
+* [Image resizer](https://imageresizer.com/resize/download/632541ad11b49d00123e785e "Link to main-page")
+    * For resizing of images to desired output
+* [Youtube](https://www.youtube.com/ "Link to youtube")
+    * Ample resources for web dev tutorials
+* [Edx](https://www.edx.org/ "Link to edx")
+    * Havard web development courses
+
+
