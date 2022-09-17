@@ -77,7 +77,7 @@ The following steps were taken during testing procedure.
 [Link to result here!](https://docs.google.com/spreadsheets/d/1zQbxA237BhtKEOATxSnLxXUf_9XH3FDsB3V4f07nk7I/edit#gid=0 "visit page")
 
 ## Unfixed Bugs
-Bug on favicon 404 error not found in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug.
+Bug on favicon *404 error not found* in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug. The error is not pertaining the game
 
 ---
 
@@ -85,7 +85,7 @@ Bug on favicon 404 error not found in mozilla firefox and microsoft edge remain 
 
 Github is the hosting platform for the project and to deploy, The following steps were taken:
 [Github Address](https://github.com/folarin-ogungbemi/twain-land.git "visit github address")
-* Navigate to settings on the Github settings.
+* Navigate to settings on Github.
 * Click on **pages** from the list on the left flank of the page.
 * Navigate to the branch section and select **main** as branch then click save.
 * After approximately two minutes refresh the website and a live website will be available.
