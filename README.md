@@ -67,3 +67,11 @@ The following steps were taken during testing procedure.
         * 19 *Non-trivial* warnings were reported. These warning were based on es6version implementation.
     * The extension was installed to test for errors.
         * [Why does JSHint throw a warning if i am using const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const/27442276#27442276 "visit stackoverflow page")
+
+## High Level Testing
+* The following steps were taken to test stages of the program
+![Test strategy](./assets/images/twain%20game%20testing%20process.png "view image")
+[Link to result here!](https://docs.google.com/spreadsheets/d/1zQbxA237BhtKEOATxSnLxXUf_9XH3FDsB3V4f07nk7I/edit#gid=0 "visit page")
+
+## Unfixed Bugs
+Bug on favicon 404 error not found in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug.
