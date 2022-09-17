@@ -43,8 +43,14 @@ Twain-land introduces the famous concentration game that both young and old enjo
 * The game intends to help users get accustomed with countries' flags. The application currently features only few countries in Europe and will in the future provide functions for users to select continent of their choice.
 * The game will also include stages of difficulty.
 
+---
+
 # Twain-Land Program Flow-Chart
 ![Twain-Land Flowchart](./assets/images/twain-game%20flow%20chart.png "Game Flow chart")
+
+## Note
+* The program has two html pages, two javascript pages and one css page all properly linked together for the success of the program.
+* The markup text implored the use of Block-Element-Modifier(BEM) for the purpose of sectionting the naming convention in the markup code.
 
 ---
 
