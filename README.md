@@ -82,8 +82,15 @@ The following steps were taken during testing procedure.
 ![Test strategy](./assets/images/twain%20game%20testing%20process.png "view image")
 [Link to result here!](https://docs.google.com/spreadsheets/d/1zQbxA237BhtKEOATxSnLxXUf_9XH3FDsB3V4f07nk7I/edit#gid=0 "visit page")
 
+## Fixed Bugs
+* Error flag in game.html console due to a declared code in one page javascript necessary for the index.html. Bug was fixed by creating a seperate script for the code from index.html 
+* W3C validator pointed it is not a best practice to have anchor tags inside button tags. Bug was fixed
+* The use of pixel measurement unit was changed after a flag was raised on it.
+* single quotes in javascript were changed to double quotes.
+
 ## Unfixed Bugs
-Bug on favicon *404 error not found* in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug. The error is not pertaining the game
+* Bug on favicon *404 error not found* in mozilla firefox remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug. The error is not pertaining to the game only the index page.
+* In Microsoft Edge *Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.* remain unfixed. it is as of the moment unclear why the issue persist and what could be done to fix the bug. The error is not pertaining to the game only the index page.
 
 ---
 
