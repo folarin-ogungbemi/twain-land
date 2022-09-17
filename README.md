@@ -6,6 +6,8 @@ Twain-land introduces the famous concentration game that both young and old enjo
 
 ![Twain-Land](./assets/images/twaingame%20mockup-c.png "Game preview")
 
+---
+
 # Features
 
 ## Existing Features
@@ -44,6 +46,7 @@ Twain-land introduces the famous concentration game that both young and old enjo
 # Twain-Land Program Flow-Chart
 ![Twain-Land Flowchart](./assets/images/twain-game%20flow%20chart.png "Game Flow chart")
 
+---
 
 # Testing
 
@@ -76,6 +79,8 @@ The following steps were taken during testing procedure.
 ## Unfixed Bugs
 Bug on favicon 404 error not found in mozilla firefox and microsoft edge remain unfixed as the situation appears to be from speicific browsers. it is as of the moment unclear why the issue persist and what could be done to fix the bug.
 
+---
+
 # Deployment
 
 Github is the hosting platform for the project and to deploy, The following steps were taken:
@@ -85,6 +90,8 @@ Github is the hosting platform for the project and to deploy, The following step
 * Navigate to the branch section and select **main** as branch then click save.
 * After approximately two minutes refresh the website and a live website will be available.
 [Live website here](https://folarin-ogungbemi.github.io/twain-land/ "visit live website")
+
+---
 
 # Technologies
 
@@ -102,7 +109,7 @@ Github is the hosting platform for the project and to deploy, The following step
     * Gitpod is the open-source developer platform used in tandem with github for the deployment of the website source code.
 * [Visual Studio code](https://code.visualstudio.com "Link to visual studio code main-page")
     * The Integrated development environment(IDE) used for the writing of source code.
-* [Flaticon](https://www.flaticon.com/"Link to flaticon main-page")
+* [Flaticon](https://www.flaticon.com/ "Link to flaticon main-page")
     * The icons used in the website were products of flaticon.
 * [Google fonts](https://fonts.google.com "Link to google fonts main-page")
     * The fonts used in the website were products of google fonts.
@@ -127,4 +134,28 @@ Github is the hosting platform for the project and to deploy, The following step
 * [Edx](https://www.edx.org/ "Link to edx")
     * Havard web development courses
 
+---
+# Credits
 
+## Code
+
+* The turorial from [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum "Visit Code Institute") was the most helpful link from the writing of code to the deployment of the program.
+* Helpful ideas from  [Kevin Powel](https://youtu.be/TAB_v6yBXIE "Visit Kevin Powel youtube video") in learning how to use modals.
+* Helpful ideas from  [Kevin Powel](https://youtu.be/GGcDLOuKaiA "Visit Kevin Powel youtube video") in using grid-auto-flow to layout the cards.
+* Building of Readme file using technique from [Daisy McG](https://github.com/Daisy-McG/MilestoneProject-1 "Visit Daisy McG Github").
+*  Helpful ideas from  [Code Sketch](https://youtu.be/6-CsPmYQ-VI "Visit Code sketch youtube video") in understanding the matching logic.
+*  Helpful idea from  [Florin Pop](https://youtu.be/x7WJEmxNlEs "Visit Code sketch youtube video") in understanding countdown timer logic.
+
+## Media
+
+* Thanks to Pexels and to pixabay who made these pictures available for use:
+*  [Pixabay](https://images.pexels.com/photos/2152/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 "see image")
+*  [Pixabay](https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 "see image")
+* Thanks to [Flaticon](https://www.flaticon.com/ "visit flaticon") for making the country icons available for use.
+
+## Acknowledgement 
+
+My sincere appreciation goes to :
+* To my able mentor, that always come thtough for me. Thank you always for providing me with relevant tips and information to build this website.
+* To my nieces Wuraola, Eniola and Dayo, who introduced me to the game during our fun game times. thank you sweethearts for the inspiration.
+* And finally to my partner, Mo, for giving her attention at the time of need.
