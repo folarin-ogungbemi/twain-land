@@ -150,16 +150,17 @@ Github is the hosting platform for the project and to deploy, The following step
 * Helpful ideas from  [Kevin Powel](https://youtu.be/TAB_v6yBXIE "Visit Kevin Powel youtube video") in learning how to use modals.
 * Helpful ideas from  [Kevin Powel](https://youtu.be/GGcDLOuKaiA "Visit Kevin Powel youtube video") in using grid-auto-flow to layout the cards.
 * Building of Readme file using technique from [Daisy McG](https://github.com/Daisy-McG/MilestoneProject-1 "Visit Daisy McG Github").
-* Helpful ideas from  [Code Sketch](https://youtu.be/6-CsPmYQ-VI "Visit Code sketch youtube video") in understanding the matching logic.
+* Helpful guide from  [Code Sketch](https://youtu.be/6-CsPmYQ-VI "Visit Code sketch youtube video") in understanding the matching logic.
 * Helpful idea from  [Florin Pop](https://youtu.be/x7WJEmxNlEs "Visit Code sketch youtube video") in understanding countdown timer logic.
-* [Edx](https://www.edx.org/ "Link to edx") CS50's Web Programming with Python and JavaScript helpful resources in understanding concepts of javascript. 
+* [Edx](https://www.edx.org/ "Link to edx") CS50's Web Programming with Python and JavaScript helpful resource in understanding concepts of javascript. 
 
+## Content
+* The country icons and logo used for the creation of the program was taken from [Flaticon](https://www.flaticon.com/ "visit flaticon").
 ## Media
 
 * Thanks to Pexels and to pixabay who made these pictures available for use:
 *  [Pixabay](https://images.pexels.com/photos/2152/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 "see image")
 *  [Pixabay](https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 "see image")
-* Thanks to [Flaticon](https://www.flaticon.com/ "visit flaticon") for making the country icons available for use.
 
 ## Acknowledgement 
 
