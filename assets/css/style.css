@@ -356,6 +356,10 @@ MEDIUM QUERIES
         font-size: 30%;
     }
 
+    /**********
+    main-body
+    **********/
+
     .card-back,
     .card-front {
         border-radius: 5px;
@@ -365,15 +369,27 @@ MEDIUM QUERIES
 /* media at 500px*/
 
 @media screen and (max-width: 500px) {
+
+    /************
+        hero
+    **********/
     .hero__main-header2 {
         letter-spacing: 2.1rem;
     }
+
+    /************
+        MODAL
+    **********/
 
     .hero__modal,
     .twain-game__modal-win,
     .twain-game__modal-lose {
         font-size: 1.4rem;
     }
+
+    /**********
+    main-body
+    **********/
 
     .twain-game__deck {
         grid-template-columns: repeat(4, 10.5rem);
