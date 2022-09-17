@@ -138,7 +138,8 @@ Github is the hosting platform for the project and to deploy, The following step
 * [Youtube](https://www.youtube.com/ "Link to youtube")
     * Ample resources for web dev tutorials
 * [Edx](https://www.edx.org/ "Link to edx")
-    * Havard web development courses
+    * Havard web development course.
+
 
 ---
 # Credits
@@ -149,8 +150,9 @@ Github is the hosting platform for the project and to deploy, The following step
 * Helpful ideas from  [Kevin Powel](https://youtu.be/TAB_v6yBXIE "Visit Kevin Powel youtube video") in learning how to use modals.
 * Helpful ideas from  [Kevin Powel](https://youtu.be/GGcDLOuKaiA "Visit Kevin Powel youtube video") in using grid-auto-flow to layout the cards.
 * Building of Readme file using technique from [Daisy McG](https://github.com/Daisy-McG/MilestoneProject-1 "Visit Daisy McG Github").
-*  Helpful ideas from  [Code Sketch](https://youtu.be/6-CsPmYQ-VI "Visit Code sketch youtube video") in understanding the matching logic.
-*  Helpful idea from  [Florin Pop](https://youtu.be/x7WJEmxNlEs "Visit Code sketch youtube video") in understanding countdown timer logic.
+* Helpful ideas from  [Code Sketch](https://youtu.be/6-CsPmYQ-VI "Visit Code sketch youtube video") in understanding the matching logic.
+* Helpful idea from  [Florin Pop](https://youtu.be/x7WJEmxNlEs "Visit Code sketch youtube video") in understanding countdown timer logic.
+* [Edx](https://www.edx.org/ "Link to edx") CS50's Web Programming with Python and JavaScript helpful resources in understanding concepts of javascript. 
 
 ## Media
 
