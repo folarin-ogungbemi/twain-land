@@ -41,4 +41,7 @@ Twain-land introduces the famous concentration game that both young and old enjo
 * The game intends to help users get accustomed with countries' flags. The application currently features only few countries in Europe and will in the future provide functions for users to select continent of their choice.
 * The game will also include stages of difficulty.
 
+# Twain-Land Program Flow-Chart
+![Twain-Land Flowchart](./assets/images/twain-game%20flow%20chart.png "Game Flow chart")
+
 
