@@ -45,3 +45,25 @@ Twain-land introduces the famous concentration game that both young and old enjo
 ![Twain-Land Flowchart](./assets/images/twain-game%20flow%20chart.png "Game Flow chart")
 
 
+# Testing
+
+Twain Land program was tested under different circumstances to check for the games Efficiency and effectiveness.
+The following steps were taken during testing procedure.
+
+## Validator testing
+* Lighthouse  Test
+    * ![Lighthouse](./assets/images/Lighthouse%20test.png "performance test")
+* HTML
+    * [W3C validator](https://validator.w3.org "Visit website") was used to test the two html files.By direct input, No errors or warnings were found.
+* CSS
+    * [(Jigsaw)validator](https://jigsaw.w3.org/css-validator "visit website") was used to test the css linked file. By direct input, No errors or warnings were found.
+* Javascript
+    * No errors were found when passing through the official [Jshint validator](https://jshint.com "visit website")
+    * metrics report
+        * There are 9 functions in the file.
+        * Functions with the largest signature take 1 arguments, while the median is 0.
+        * Largest function has 20 statements in it, while the median is 3.
+        * The most complex function has a cyclomatic complexity value while the median is 1.
+        * 19 *Non-trivial* warnings were reported. These warning were based on es6version implementation.
+    * The extension was installed to test for errors.
+        * [Why does JSHint throw a warning if i am using const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const/27442276#27442276 "visit stackoverflow page")

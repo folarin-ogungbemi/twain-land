@@ -60,7 +60,7 @@ function toggler() {
    if (deckLock) {
       return;
    }
-   if (this === cardA){
+   if (this === cardA) {
       return;
    }
    this.classList.toggle("on-toggle");
