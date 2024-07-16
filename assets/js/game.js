@@ -79,7 +79,7 @@ function toggler() {
          let yesPairs = document.querySelector(".correct-pairs").innerText;
          document.querySelector(".correct-pairs").innerText = ++yesPairs;
          incrementScore();
-         setTimeout(removeCards, 1000);
+         setTimeout(resetDeck, 1000);
       }
       // if cardA and cardB do not match and return cards after 1.75s
       else {
@@ -109,16 +109,6 @@ function incrementScore() {
       tScore += 80;
       document.querySelector("#game-score").innerHTML = `${tScore}`;
    }
-}
-
-/**
- * Remove cards from deck when pair is found
- */
-function removeCards() {
-
-   cardA.remove();
-   cardB.remove();
-   resetDeck();
 }
 
 /**
